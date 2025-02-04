@@ -35,15 +35,5 @@ class Tree:
                 else:
                     print(" " * ((level + 1) * 4) + "R--- None")
 
-# Ejemplo de uso
-my_tree = Tree()
-my_tree.insert(50)
-my_tree.insert(30)
-my_tree.insert(70)
-my_tree.insert(20)
-my_tree.insert(40)
-my_tree.insert(60)
-my_tree.insert(80)
-
 print("Árbol de búsqueda binario: \n")
 my_tree.print_tree()
