@@ -1,3 +1,9 @@
+class Node:
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
+
 class Tree:
     def __init__(self):
         self.root = None
@@ -35,5 +41,16 @@ class Tree:
                 else:
                     print(" " * ((level + 1) * 4) + "R--- None")
 
-print("Árbol de búsqueda binario: \n")
+# Ejemplo de uso
+my_tree = Tree()
+my_tree.insert(50)
+my_tree.insert(30)
+my_tree.insert(10)
+my_tree.insert(20)
+my_tree.insert(21)
+my_tree.insert(31)
+my_tree.insert(51)
+
+
+print("Árbol de búsqueda binario:\n")
 my_tree.print_tree()
