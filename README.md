@@ -14,6 +14,7 @@ Tarea 1:
 Realizamos un arbol binario de busqueda en python, con 2 clases "Node" y "Tree", también implementamos los métodos solicitados (insertar e imprimirArbol).
 
 Tarea 2:
-sdfads
+--------
 
 Tarea 3:
+--------
